@@ -1,0 +1,52 @@
+.draftItem {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input {
+    font-size: 20px;
+    font-family: system-ui;
+    border: none;
+    width: 100%;
+    margin: 19px 0px;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+}
+
+.p {
+    font-size: 20px;
+    font-family: system-ui;
+    width: 100%;
+}
+
+.button {
+    width: 45%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 2px;
+    transition: 0.2s;
+}
+
+.remove {
+    background: rgba(238, 39, 39, 0.705);
+}
+
+.remove:hover {
+    background: rgba(163, 27, 27, 0.705);
+    color: white;
+}
+
+.board {
+    background: rgba(52, 39, 238, 0.705);
+}
+
+.board:hover {
+    background: rgba(44, 33, 196, 0.705);
+    color: white;
+}

@@ -1,0 +1,28 @@
+.header {
+    grid-area: header;
+    background-color: rgba(100, 102, 202, 0.6);    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between; /*Центрирование по горизонтали*/
+    align-items: center;     /*Центрирование по вертикали */
+    padding-top: 15px;
+}
+
+.label {
+    font-size: 40px;
+    color: white;
+    padding-left: 15px;
+}
+
+.counter {
+    background: rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+
